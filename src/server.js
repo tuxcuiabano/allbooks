@@ -18,6 +18,6 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na prota 3000
 
 server.listen(8000, () => {
-  console.log("Bem vindo API")
+  console.log("Bem vindo A")
   console.log("NOSAA API disponível em http://localhost:8000")
 })
